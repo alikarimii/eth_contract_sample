@@ -19,4 +19,6 @@ contract FirstContract {
     Person[2] otherPeoples;
     // map
     mapping(string => uint256) mapPersons;
+
+    address account1 = 0x876bec98825F0287FdFA8E2029e22f5aA0D2D82F;
 }

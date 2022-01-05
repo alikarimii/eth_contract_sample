@@ -38,7 +38,7 @@ contract FirstContract {
 
     // view function can not change state of contract
     function test4(string memory name) public view returns (uint256) {
-        // return age of jack if person with this name exists
+        // return age if person with this name exists
         return mapPersons[name];
     }
 }
